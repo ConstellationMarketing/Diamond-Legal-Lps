@@ -43,16 +43,16 @@ export const DiamondLegalThankYou = (): JSX.Element => {
   return (
     <div className="w-full min-h-screen bg-wosnik-light flex flex-col">
       {/* Navigation */}
-      <div className="w-full bg-wosnik-dark border-b border-wosnik-accent/20">
+      <div className="w-full bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <img
             src="/diamond-legal-logo.webp"
             alt="Diamond Legal, P.C."
-            className="h-12 w-auto object-contain brightness-0 invert"
+            className="h-12 w-auto object-contain"
           />
           <a
             href={phoneHref}
-            className="font-body text-white hover:text-wosnik-accent transition-colors text-lg font-semibold"
+            className="font-body text-wosnik-dark hover:text-wosnik-accent transition-colors text-lg font-semibold"
           >
             {phone}
           </a>

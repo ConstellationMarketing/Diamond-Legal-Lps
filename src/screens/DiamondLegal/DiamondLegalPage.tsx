@@ -126,22 +126,22 @@ export const DiamondLegalPage = (): JSX.Element => {
         {/* ============ HERO SECTION ============ */}
         <section className="relative w-full min-h-[500px] bg-wosnik-dark">
           {/* Navigation Bar */}
-          <div className="relative w-full bg-wosnik-dark border-b border-wosnik-accent/20">
+          <div className="relative w-full bg-white border-b border-gray-200">
             <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
               <div className="flex items-center">
                 <img
                   src="/diamond-legal-logo.webp"
                   alt="Diamond Legal, P.C."
-                  className="h-12 w-auto object-contain brightness-0 invert"
+                  className="h-12 w-auto object-contain"
                 />
               </div>
               <div className="flex flex-col items-end">
-                <p className="font-body text-wosnik-accent text-xs uppercase tracking-wider">
+                <p className="font-body text-wosnik-dark text-xs uppercase tracking-wider">
                   McHenry's Trusted Family Law Attorneys
                 </p>
                 <a
                   href={phoneHref}
-                  className="font-body text-white hover:text-wosnik-accent transition-colors text-lg font-semibold"
+                  className="font-body text-wosnik-dark hover:text-wosnik-accent transition-colors text-lg font-semibold"
                 >
                   {phone}
                 </a>
