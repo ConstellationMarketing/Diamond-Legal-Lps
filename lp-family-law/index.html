@@ -90,6 +90,7 @@
       }
 
       function handleFormSubmit(event) {
+        event.preventDefault();
         populateTrackingFields();
 
         const form = event.target;
@@ -99,40 +100,53 @@
         if (sourceField && mediumField) {
           const source = sourceField.value;
           const medium = mediumField.value;
-
           const illogicalCombinations = [
             { source: 'direct', medium: 'organic' },
             { source: 'direct', medium: 'referral' },
             { source: 'direct', medium: 'social' },
             { source: 'direct', medium: 'cpc' }
           ];
-
           for (const combo of illogicalCombinations) {
             if (source === combo.source && medium === combo.medium) {
-              event.preventDefault();
               return false;
             }
           }
         }
-      }
 
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', function() {
-          populateTrackingFields();
-          const form = document.getElementById('contact-form');
-          if (form) form.addEventListener('submit', handleFormSubmit);
+        // Submit to Netlify via fetch, then redirect to our thank-you page
+        const formData = new FormData(form);
+        fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(formData).toString()
+        })
+        .then(function() {
+          window.location.href = '/lp-family-law-thank-you/';
+        })
+        .catch(function() {
+          // Redirect even on network error so user isn't stuck
+          window.location.href = '/lp-family-law-thank-you/';
         });
-      } else {
-        populateTrackingFields();
-        const form = document.getElementById('contact-form');
-        if (form) form.addEventListener('submit', handleFormSubmit);
       }
 
-      document.addEventListener('focusin', function(e) {
-        if (e.target.form && e.target.form.id === 'contact-form') {
-          setTimeout(populateTrackingFields, 100);
+      function attachFormListener() {
+        const form = document.getElementById('contact-form');
+        if (form && !form.dataset.listenerAttached) {
+          form.dataset.listenerAttached = 'true';
+          form.addEventListener('submit', handleFormSubmit);
+          form.addEventListener('focusin', function() {
+            setTimeout(populateTrackingFields, 100);
+          });
+          populateTrackingFields();
         }
+      }
+
+      // Try immediately, then watch for React to render the form
+      attachFormListener();
+      var formObserver = new MutationObserver(function() {
+        attachFormListener();
       });
+      formObserver.observe(document.body, { childList: true, subtree: true });
     </script>
   </head>
   <body>
