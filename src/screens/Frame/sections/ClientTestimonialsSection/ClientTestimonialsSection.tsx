@@ -15,7 +15,7 @@ export const ClientTestimonialsSection = (): JSX.Element => {
       name: "Sadondra Smith",
       rating: 5,
       timeAgo: "12 months ago",
-      text: "Peter Wosnik is the best. He definitely made me feel comfortable with all the decisions about my case. He kept me informed about everything that was going on with the case. His staff is calming and nice his receptionist made sure I was notified with emails very professional. Any questions I asked they were answered with very understanding manner. I definitely recommend Wosnik Law Thank you so much, Peter!",
+      text: "Peter Wosnik is the best. He definitely made me feel comfortable with all the decisions about my case. He kept me informed about everything that was going on with the case. His staff is calming and nice his receptionist made sure I was notified with emails very professional. Any questions I asked they were answered with very understanding manner. I definitely recommend this firm. Thank you so much, Peter!",
       source: "Google"
     },
     {

@@ -37,7 +37,7 @@ export const HeroSection = (): JSX.Element => {
         </h2>
 
         <p className="font-body text-white text-base max-w-3xl mx-auto leading-relaxed mb-8">
-          With over 35 years of combined experience, Wosnik Law delivers aggressive criminal defense, DUI representation, and family law services to protect your rights and secure the best possible outcome.
+          With over 35 years of combined experience, our attorneys deliver aggressive criminal defense, DUI representation, and family law services to protect your rights and secure the best possible outcome.
         </p>
 
         <button

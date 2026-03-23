@@ -19,7 +19,7 @@ export const AttorneySection = (): JSX.Element => {
 
           <div className="flex flex-col justify-center space-y-6">
             <p className="font-body text-wosnik-dark text-base leading-relaxed">
-              Peter J. Wosnik is an accomplished trial lawyer and founding partner of Wosnik Law, LLC. He has achieved not guilty verdicts for clients facing charges including DUI, homicide by vehicle, child cruelty, sexual battery, drug trafficking, and aggravated assault.
+              Peter J. Wosnik is an accomplished trial lawyer and founding partner of the firm. He has achieved not guilty verdicts for clients facing charges including DUI, homicide by vehicle, child cruelty, sexual battery, drug trafficking, and aggravated assault.
             </p>
 
             <p className="font-body text-wosnik-dark text-base leading-relaxed">
