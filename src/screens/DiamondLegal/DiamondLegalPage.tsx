@@ -486,7 +486,7 @@ export const DiamondLegalPage = (): JSX.Element => {
                   action="/lp-family-law-thank-you/"
                   method="POST"
                   data-netlify="true"
-                  netlify-honeypot="bot-field"
+                  data-netlify-honeypot="bot-field"
                   className="space-y-4"
                 >
                   <input type="hidden" name="form-name" value="diamond-legal-family-law" />

@@ -150,7 +150,7 @@
   </head>
   <body>
     <!-- Netlify Forms detection (hidden, required for SPA/React builds) -->
-    <form name="criminal-form" netlify netlify-honeypot="bot-field" hidden>
+    <form name="criminal-form" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
       <input name="bot-field" />
       <input name="name" />
       <input name="email" />
