@@ -38,13 +38,13 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
 
         {/* CTA Section */}
         <div className="mt-16 bg-wosnik-accent rounded-lg p-12 text-center">
-          <h3 className="font-heading text-wosnik-dark text-2xl md:text-3xl font-normal mb-6">
+          <h3 className="font-heading text-white text-2xl md:text-3xl font-normal mb-6">
             Call Now for Criminal Defense Help
           </h3>
 
           <a
             href="tel:6784036418"
-            className="inline-block font-heading text-wosnik-dark text-2xl md:text-3xl font-semibold hover:opacity-80 transition-opacity mb-8"
+            className="inline-block font-heading text-white text-2xl md:text-3xl font-semibold hover:opacity-80 transition-opacity mb-8"
           >
             (678) 403-6418
           </a>
@@ -57,7 +57,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
               Free consultations available
             </a>
 
-            <p className="font-body text-wosnik-dark text-base">
+            <p className="font-body text-white/90 text-base">
               speak directly with an experienced Georgia attorney today.
             </p>
           </div>

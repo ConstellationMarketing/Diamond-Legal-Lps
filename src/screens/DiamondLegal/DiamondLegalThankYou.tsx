@@ -88,7 +88,7 @@ export const DiamondLegalThankYou = (): JSX.Element => {
             {nextSteps.map((step, index) => (
               <div key={index} className="flex items-start gap-4">
                 <div className="w-9 h-9 bg-wosnik-accent rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="font-heading text-wosnik-dark text-base font-normal">
+                  <span className="font-heading text-white text-base font-normal">
                     {index + 1}
                   </span>
                 </div>
@@ -133,7 +133,7 @@ export const DiamondLegalThankYou = (): JSX.Element => {
               {geographicAreas.map((area, i) => (
                 <span
                   key={i}
-                  className="bg-wosnik-accent text-wosnik-dark font-body text-sm px-3 py-1 rounded-full"
+                  className="bg-wosnik-accent text-white font-body text-sm px-3 py-1 rounded-full"
                 >
                   {area}
                 </span>

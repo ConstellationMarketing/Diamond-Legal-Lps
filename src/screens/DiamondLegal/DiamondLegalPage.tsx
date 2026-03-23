@@ -164,7 +164,7 @@ export const DiamondLegalPage = (): JSX.Element => {
               Facing a custody battle, financial uncertainty, or a high-conflict spouse? Diamond Legal provides experienced, strategic divorce representation for parents navigating complex cases involving children, parenting time, and asset division. With over 40 years of serving McHenry, Lake, and Kane Counties, we help you take control, protect what matters most, and move forward with clarity and confidence.
             </p>
             <button
-              className="bg-wosnik-accent hover:bg-wosnik-accent/80 text-wosnik-dark font-inter font-medium text-sm px-8 py-3 rounded-full border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
+              className="bg-wosnik-accent hover:bg-wosnik-accent/80 text-white font-inter font-medium text-sm px-8 py-3 rounded-full border border-white/20 transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
               onClick={scrollToContact}
             >
               Get Your Strategy Consultation
@@ -205,15 +205,15 @@ export const DiamondLegalPage = (): JSX.Element => {
 
             {/* Primary CTA Bar */}
             <div className="bg-wosnik-accent rounded-lg p-12 text-center">
-              <h3 className="font-heading text-wosnik-dark text-2xl md:text-3xl font-normal mb-4">
+              <h3 className="font-heading text-white text-2xl md:text-3xl font-normal mb-4">
                 Speak With a Divorce Attorney Today. Protect Your Children, Finances &amp; Future
               </h3>
-              <p className="font-body text-wosnik-dark text-base mb-6">
+              <p className="font-body text-white text-base mb-6">
                 Get clear guidance on custody, parenting time, and financial protection from a seasoned family law attorney.
               </p>
               <a
                 href={phoneHref}
-                className="inline-block font-heading text-wosnik-dark text-2xl md:text-3xl font-semibold hover:opacity-80 transition-opacity mb-8"
+                className="inline-block font-heading text-white text-2xl md:text-3xl font-semibold hover:opacity-80 transition-opacity mb-8"
               >
                 {phone}
               </a>
@@ -251,10 +251,10 @@ export const DiamondLegalPage = (): JSX.Element => {
                       {cat.number}
                     </span>
                   </div>
-                  <h3 className="font-heading text-wosnik-dark text-base font-normal mb-3 leading-snug">
+                  <h3 className="font-heading text-white text-base font-normal mb-3 leading-snug">
                     {cat.title}
                   </h3>
-                  <p className="font-body text-wosnik-dark text-sm leading-relaxed">
+                  <p className="font-body text-white/90 text-sm leading-relaxed">
                     {cat.description}
                   </p>
                 </div>
@@ -286,7 +286,7 @@ export const DiamondLegalPage = (): JSX.Element => {
               <div className="mb-12">
                 <button
                   onClick={scrollToContact}
-                  className="bg-wosnik-accent hover:bg-wosnik-accent/80 text-wosnik-dark font-inter font-medium text-sm px-8 py-3 rounded-full border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
+                  className="bg-wosnik-accent hover:bg-wosnik-accent/80 text-white font-inter font-medium text-sm px-8 py-3 rounded-full border border-white/20 transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
                 >
                   Speak With a Divorce Attorney Today
                 </button>
@@ -300,11 +300,11 @@ export const DiamondLegalPage = (): JSX.Element => {
                       key={index}
                       className="bg-wosnik-accent rounded-lg p-6 flex flex-col items-center text-center"
                     >
-                      <CheckCircle className="w-10 h-10 text-wosnik-dark mb-3" />
-                      <h4 className="font-heading text-wosnik-dark text-base font-normal mb-2">
+                      <CheckCircle className="w-10 h-10 text-white mb-3" />
+                      <h4 className="font-heading text-white text-base font-normal mb-2">
                         {highlight.title}
                       </h4>
-                      <p className="font-body text-wosnik-dark text-sm leading-relaxed">
+                      <p className="font-body text-white/90 text-sm leading-relaxed">
                         {highlight.description}
                       </p>
                     </div>
@@ -368,10 +368,10 @@ export const DiamondLegalPage = (): JSX.Element => {
         {/* ============ CALL TO ACTION MAIN SECTION ============ */}
         <section className="w-full bg-wosnik-accent py-12 md:py-16">
           <div className="max-w-6xl mx-auto px-4 text-center">
-            <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal mb-6">
+            <h2 className="font-heading text-white text-3xl md:text-4xl font-normal mb-6">
               Ready to Discuss Your Case?
             </h2>
-            <p className="font-body text-wosnik-dark text-lg mb-8 max-w-2xl mx-auto">
+            <p className="font-body text-white/90 text-lg mb-8 max-w-2xl mx-auto">
               Don't face a high-conflict divorce, custody dispute, or complex family law matter alone. Contact the experienced team at Diamond Legal, P.C. today for a confidential, personalized consultation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -500,7 +500,7 @@ export const DiamondLegalPage = (): JSX.Element => {
                   </div>
                   <button
                     type="submit"
-                    className="w-full bg-wosnik-accent hover:bg-wosnik-accent/80 text-wosnik-dark font-inter font-medium text-sm px-8 py-3 rounded-full border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
+                    className="w-full bg-wosnik-accent hover:bg-wosnik-accent/80 text-white font-inter font-medium text-sm px-8 py-3 rounded-full border border-white/20 transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
                   >
                     Send Message
                   </button>
