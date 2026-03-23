@@ -662,9 +662,9 @@ export const DiamondLegalPage = (): JSX.Element => {
             {/* Google Map */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <iframe
-                src="https://maps.google.com/maps?q=3431+West+Elm+Street,+McHenry,+IL+60050&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.870840799622!2d-88.265514!3d42.345277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f70de1fd86c79%3A0x96cf04a4f03baf45!2sDiamond%20Legal%2C%20P.C.!5e0!3m2!1sen!2srs!4v1774284033595!5m2!1sen!2srs"
                 width="100%"
-                height="400"
+                height="450"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
