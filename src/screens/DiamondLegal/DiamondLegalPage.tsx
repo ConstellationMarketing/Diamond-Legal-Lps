@@ -128,15 +128,12 @@ export const DiamondLegalPage = (): JSX.Element => {
           {/* Navigation Bar */}
           <div className="relative w-full bg-wosnik-dark border-b border-wosnik-accent/20">
             <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <div className="flex flex-col leading-none">
-                  <span className="font-heading text-white text-2xl font-normal tracking-wide">
-                    Diamond Legal
-                  </span>
-                  <span className="font-body text-wosnik-accent text-xs tracking-[3px] uppercase mt-0.5">
-                    P.C.
-                  </span>
-                </div>
+              <div className="flex items-center">
+                <img
+                  src="/diamond-legal-logo.webp"
+                  alt="Diamond Legal, P.C."
+                  className="h-12 w-auto object-contain brightness-0 invert"
+                />
               </div>
               <div className="flex flex-col items-end">
                 <p className="font-body text-wosnik-accent text-xs uppercase tracking-wider">
