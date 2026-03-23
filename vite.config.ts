@@ -10,7 +10,9 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: './index.html',
-        'thank-you': './thank-you.html'
+        'thank-you': './thank-you.html',
+        'lp-family-law': './lp-family-law.html',
+        'lp-family-law-thank-you': './lp-family-law-thank-you.html',
       }
     }
   },
