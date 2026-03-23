@@ -1,5 +1,5 @@
 import React from "react";
-import { CheckCircle, Phone, MapPin, Mail } from "lucide-react";
+import { CheckCircle, Phone, MapPin, Mail, Star } from "lucide-react";
 
 export const DiamondLegalPage = (): JSX.Element => {
   const phone = "(815) 657-1195";
@@ -358,6 +358,80 @@ export const DiamondLegalPage = (): JSX.Element => {
                   </div>
                 ))}
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ============ GOOGLE REVIEWS SECTION ============ */}
+        <section className="w-full bg-wosnik-light py-12 md:py-20">
+          <div className="max-w-6xl mx-auto px-4">
+            <div className="flex items-center justify-center gap-3 mb-3">
+              <span className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal text-center">
+                What Our Clients Say
+              </span>
+            </div>
+            <div className="flex items-center justify-center gap-2 mb-12">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+              ))}
+              <span className="font-body text-wosnik-dark/70 text-sm ml-1">5.0 · Google Reviews</span>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {[
+                {
+                  name: "Susan",
+                  timeAgo: "2 weeks ago",
+                  text: "Adam Diamond is amazing! He was very informative and helpful! He set up a trust for my husband and I. He walked us through each step and made sure we understood each and every step of the way. My husband passed very recently and Adam has helped me with all of my questions and guided me through each step. If Adam hadn't gone the extra mile initially, I would be lost. Adam has given me the time I need to just grieve."
+                },
+                {
+                  name: "Jan R",
+                  timeAgo: "2 weeks ago",
+                  text: "Adam Diamond set up my trust. I am so happy that I chose his law firm. He is very thorough and kind and Linda, his Law Clerk, has also been very helpful. Yesterday, I had another appointment for Adam to explain some things and he went out of his way to make sure that I understood the answers to my questions. Adam is a star. Thank you all."
+                },
+                {
+                  name: "Jerome Bondi",
+                  timeAgo: "2 weeks ago",
+                  text: "The McHenry office got me in on short notice and was able to meet with attorney. Adam was very helpful getting my trust updated same day. Also, took his time explained everything in detail and when I didn't understand he broke it down even further until I got it. Highly recommend this group. They ROCK"
+                },
+                {
+                  name: "Robyn C",
+                  timeAgo: "2 months ago",
+                  text: "I found this firm searching google for attorneys with good reviews. I now understand why Diamond Legal gets them. THEY EARN THEM!!! Absolutely top notch experience from my first phone call (thanks Nicki) to the successful and timely completion of all my estate planning needs. There were some extra things to square away (trust and deed issues) and they handled the whole process quickly and efficiently. Excellent communication and follow through. They do what they say they're gonna do. I also found them to be an excellent value. Thanks, Adam and Karen for exceeding my expectations. It was an absolute pleasure to do business with your firm."
+                }
+              ].map((review, index) => (
+                <div key={index} className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 flex flex-col">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-10 h-10 bg-wosnik-accent rounded-full flex items-center justify-center flex-shrink-0">
+                      <span className="font-body text-white font-bold text-sm">
+                        {review.name.charAt(0)}
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-body text-wosnik-dark font-semibold text-sm">
+                        {review.name}
+                      </h3>
+                      <p className="font-body text-gray-500 text-xs">{review.timeAgo}</p>
+                      <div className="flex items-center gap-0.5 mt-1">
+                        {[...Array(5)].map((_, i) => (
+                          <Star key={i} className="w-3 h-3 text-yellow-400 fill-current" />
+                        ))}
+                      </div>
+                    </div>
+                    <div className="w-8 h-8 flex items-center justify-center">
+                      <svg viewBox="0 0 24 24" className="w-6 h-6" aria-label="Google">
+                        <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                        <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                        <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/>
+                        <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                      </svg>
+                    </div>
+                  </div>
+                  <p className="font-body text-gray-700 text-sm leading-relaxed flex-1">
+                    {review.text}
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
