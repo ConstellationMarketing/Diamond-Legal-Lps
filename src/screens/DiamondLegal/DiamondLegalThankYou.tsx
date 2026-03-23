@@ -161,7 +161,7 @@ export const DiamondLegalThankYou = (): JSX.Element => {
         {/* Back link */}
         <div className="text-center">
           <a
-            href="./lp-family-law.html"
+            href="/lp-family-law/"
             className="font-body text-wosnik-dark/60 hover:text-wosnik-dark text-sm underline transition-colors"
           >
             Return to Diamond Legal

@@ -483,7 +483,7 @@ export const DiamondLegalPage = (): JSX.Element => {
                 <form
                   id="contact-form"
                   name="diamond-legal-family-law"
-                  action="/lp-family-law-thank-you.html"
+                  action="/lp-family-law-thank-you/"
                   method="POST"
                   data-netlify="true"
                   netlify-honeypot="bot-field"

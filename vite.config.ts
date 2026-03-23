@@ -11,8 +11,8 @@ export default defineConfig({
       input: {
         main: './index.html',
         'thank-you': './thank-you.html',
-        'lp-family-law': './lp-family-law.html',
-        'lp-family-law-thank-you': './lp-family-law-thank-you.html',
+        'lp-family-law': './lp-family-law/index.html',
+        'lp-family-law-thank-you': './lp-family-law-thank-you/index.html',
       }
     }
   },
