@@ -42,7 +42,7 @@ module.exports = {
         },
         wosnik: {
           accent: '#c84323',
-          dark: '#181820',
+          dark: '#0c323a',
           light: '#efefef',
           darken: '#e1e1e1',
         },
