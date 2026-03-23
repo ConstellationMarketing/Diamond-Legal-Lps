@@ -22,10 +22,14 @@ export const ContactSection = (): JSX.Element => {
             <form
               id="contact-form"
               name="criminal-form"
-              action="https://usebasin.com/f/700c92dca26f"
+              action="/thank-you.html"
               method="POST"
+              data-netlify="true"
+              netlify-honeypot="bot-field"
               className="space-y-4"
             >
+              <input type="hidden" name="form-name" value="criminal-form" />
+              <p className="hidden"><input name="bot-field" /></p>
               <div>
                 <input
                   type="text"

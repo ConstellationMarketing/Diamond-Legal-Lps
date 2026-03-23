@@ -149,6 +149,16 @@
     </script>
   </head>
   <body>
+    <!-- Netlify Forms detection (hidden, required for SPA/React builds) -->
+    <form name="criminal-form" netlify netlify-honeypot="bot-field" hidden>
+      <input name="bot-field" />
+      <input name="name" />
+      <input name="email" />
+      <input name="phone" />
+      <textarea name="message"></textarea>
+      <input name="utm_source" /><input name="utm_medium" /><input name="utm_campaign" />
+      <input name="utm_term" /><input name="utm_content" /><input name="gclid" />
+    </form>
     <div id="app"></div>
     <script type="module" src="./src/index.tsx"></script>
   </body>

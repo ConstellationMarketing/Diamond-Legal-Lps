@@ -483,12 +483,14 @@ export const DiamondLegalPage = (): JSX.Element => {
                 <form
                   id="contact-form"
                   name="diamond-legal-family-law"
-                  action="https://usebasin.com/f/REPLACE_WITH_FORM_ID"
+                  action="/lp-family-law-thank-you.html"
                   method="POST"
+                  data-netlify="true"
+                  netlify-honeypot="bot-field"
                   className="space-y-4"
                 >
-                  {/* Basin redirect to thank-you page */}
-                  <input type="hidden" name="_redirect" value="./lp-family-law-thank-you.html" />
+                  <input type="hidden" name="form-name" value="diamond-legal-family-law" />
+                  <p className="hidden"><input name="bot-field" /></p>
 
                   {/* Hidden tracking fields */}
                   <input type="hidden" id="utm_source" name="utm_source" />
