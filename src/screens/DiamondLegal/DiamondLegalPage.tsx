@@ -136,7 +136,7 @@ export const DiamondLegalPage = (): JSX.Element => {
                 />
               </div>
               <div className="flex flex-col items-end">
-                <p className="font-body text-wosnik-dark text-xs uppercase tracking-wider">
+                <p className="font-body text-wosnik-dark text-xs uppercase tracking-wider font-bold">
                   McHenry's Trusted Family Law Attorneys
                 </p>
                 <a
