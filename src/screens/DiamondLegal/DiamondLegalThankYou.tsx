@@ -48,7 +48,7 @@ export const DiamondLegalThankYou = (): JSX.Element => {
           <img
             src="/diamond-legal-logo.webp"
             alt="Diamond Legal, P.C."
-            className="h-12 w-auto object-contain"
+            className="h-20 w-auto object-contain"
           />
           <a
             href={phoneHref}

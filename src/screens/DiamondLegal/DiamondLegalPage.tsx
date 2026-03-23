@@ -132,7 +132,7 @@ export const DiamondLegalPage = (): JSX.Element => {
                 <img
                   src="/diamond-legal-logo.webp"
                   alt="Diamond Legal, P.C."
-                  className="h-12 w-auto object-contain"
+                  className="h-20 w-auto object-contain"
                 />
               </div>
               <div className="flex flex-col items-end">
