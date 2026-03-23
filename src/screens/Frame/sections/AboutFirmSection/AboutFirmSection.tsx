@@ -3,7 +3,7 @@ import { CheckCircle } from "lucide-react";
 
 export const AboutFirmSection = (): JSX.Element => {
   const paragraphs = [
-    "Wosnik Law is a Georgia-based law firm with over 35 years of combined experience in criminal defense and family law. Our attorneys focus on defending clients' rights and securing favorable outcomes in complex legal matters throughout the state.",
+    "Our firm is a Georgia-based law firm with over 35 years of combined experience in criminal defense and family law. Our attorneys focus on defending clients' rights and securing favorable outcomes in complex legal matters throughout the state.",
     "The firm has successfully represented hundreds of individuals facing criminal charges, from traffic violations to serious felonies. Our practice areas include DUI defense, criminal defense, divorce proceedings, and child custody matters.",
     "Founded by Peter J. Wosnik, the firm has achieved numerous not guilty verdicts and case dismissals in charges including aggravated assault, armed robbery, DUI, drug trafficking, and family violence cases. Our attorneys combine trial experience with strategic negotiation skills.",
     "With attorneys Pete Wosnik, John Schneider, and Robby King, we provide comprehensive legal representation tailored to each client's unique situation, whether facing criminal charges or navigating family law proceedings."
@@ -21,7 +21,7 @@ export const AboutFirmSection = (): JSX.Element => {
     <section className="w-full py-12 md:py-20 bg-wosnik-light">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal text-center mb-12">
-          About Wosnik Law
+          About Our Firm
         </h2>
 
         <div className="max-w-4xl mx-auto space-y-6 mb-12">
