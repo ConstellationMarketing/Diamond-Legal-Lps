@@ -317,55 +317,6 @@ export const DiamondLegalPage = (): JSX.Element => {
         </section>
 
         {/* ============ WHY US SECTION ============ */}
-        <section className="w-full bg-white py-12 md:py-20">
-          <div className="max-w-6xl mx-auto px-4">
-            <div className="mb-12 text-center">
-              <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal mb-4">
-                Why Choose Diamond Legal, P.C.
-              </h2>
-              <p className="font-body text-gray-600 text-lg">
-                Proven family law advocacy built on local competence and strategic guidance.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
-              <div className="space-y-6">
-                <p className="font-body text-wosnik-dark text-base leading-relaxed">
-                  Going through a high-conflict divorce or custody dispute can be overwhelming, but you don't have to face it alone. Diamond Legal, P.C. begins by carefully listening to understand your situation, priorities, and the challenges unique to your family.
-                </p>
-                <p className="font-body text-wosnik-dark text-base leading-relaxed">
-                  We focus on honest guidance, personalized strategies, and clear communication throughout every stage of your case. Our goal is to help you feel informed, supported, and confident in the decisions that affect your children, home, and financial future.
-                </p>
-                <p className="font-body text-wosnik-dark text-base leading-relaxed">
-                  Our firm handles complex divorce cases, contested custody battles, financial disputes, and special-needs parenting plans with precision and determination. We provide strong, strategic representation for families across McHenry, Lake, and Kane Counties.
-                </p>
-                <p className="font-body text-wosnik-dark text-base leading-relaxed">
-                  We ensure each client understands the legal process, potential outcomes, and available options, empowering you to make informed decisions that protect your children, finances, and long-term stability.
-                </p>
-              </div>
-
-              <div className="space-y-4">
-                {serviceHighlights.map((item, index) => (
-                  <div
-                    key={index}
-                    className="flex items-start gap-4 p-4 bg-wosnik-light rounded-lg"
-                  >
-                    <CheckCircle className="w-6 h-6 text-wosnik-accent flex-shrink-0 mt-1" />
-                    <div>
-                      <h4 className="font-heading text-wosnik-dark text-base font-normal mb-1">
-                        {item.title}
-                      </h4>
-                      <p className="font-body text-wosnik-dark/70 text-sm leading-relaxed">
-                        {item.description}
-                      </p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* ============ GOOGLE REVIEWS SECTION ============ */}
         <section className="w-full bg-wosnik-light py-12 md:py-20">
           <div className="max-w-6xl mx-auto px-4">
