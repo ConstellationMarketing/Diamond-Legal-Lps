@@ -135,23 +135,15 @@ export const DiamondLegalPage = (): JSX.Element => {
                   className="h-20 w-auto object-contain"
                 />
               </div>
-              <div className="flex items-center gap-4">
-                <div className="flex flex-col items-end">
-                  <p className="font-body text-wosnik-dark text-xs uppercase tracking-wider font-bold">
-                    McHenry's Trusted Family Law Attorneys
-                  </p>
-                  <a
-                    href={phoneHref}
-                    className="font-body text-wosnik-dark hover:text-wosnik-accent transition-colors text-lg font-semibold"
-                  >
-                    {phone}
-                  </a>
-                </div>
+              <div className="flex flex-col items-end">
+                <p className="font-body text-wosnik-dark text-xs uppercase tracking-wider font-bold">
+                  McHenry's Trusted Family Law Attorneys
+                </p>
                 <a
                   href={phoneHref}
-                  className="bg-wosnik-accent text-white font-body font-bold text-sm uppercase tracking-wider px-5 py-3 rounded hover:opacity-90 transition-opacity whitespace-nowrap"
+                  className="font-body text-wosnik-dark hover:text-wosnik-accent transition-colors text-lg font-semibold border-2 border-wosnik-accent rounded px-4 py-1 mt-1"
                 >
-                  Call Now
+                  <span className="text-wosnik-accent font-bold mr-2">Call Now</span>{phone}
                 </a>
               </div>
             </div>
