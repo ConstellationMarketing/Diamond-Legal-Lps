@@ -284,7 +284,7 @@ export const DiamondLegalPage = (): JSX.Element => {
                 <img
                   src="/diamond-legal-team.webp"
                   alt="Diamond Legal, P.C. Team"
-                  className="w-full lg:w-2/5 rounded-lg object-cover shadow-lg flex-shrink-0"
+                  className="w-full lg:w-2/5 rounded-lg object-contain shadow-lg flex-shrink-0"
                 />
                 <div className="flex flex-col space-y-6">
                 <p className="font-body text-wosnik-dark text-base leading-relaxed">
