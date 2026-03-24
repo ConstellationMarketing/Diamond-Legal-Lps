@@ -188,6 +188,14 @@ export const DiamondLegalPage = (): JSX.Element => {
               </h3>
             </div>
 
+            <div className="flex justify-center mb-10">
+              <img
+                src="/divorce-lawyer.webp"
+                alt="Divorce attorney helping client in McHenry County"
+                className="rounded-lg shadow-md object-cover w-full max-w-2xl max-h-72"
+              />
+            </div>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-16">
               {practiceAreas.map((area, index) => (
                 <div
