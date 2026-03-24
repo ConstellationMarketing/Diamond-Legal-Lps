@@ -88,7 +88,7 @@ export const DiamondLegalPage = (): JSX.Element => {
     {
       title: "Strategy Consultation",
       description:
-        "Speak directly with an accomplished family law attorney today to review your case, explore options, and develop a clear plan to safeguard your children, finances, and future — at no cost.",
+        "Speak directly with an accomplished family law attorney today to review your case, explore options, and develop a clear plan to safeguard your children, finances, and future.",
     },
   ];
 
