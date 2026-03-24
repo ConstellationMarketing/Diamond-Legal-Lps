@@ -150,10 +150,10 @@ export const DiamondLegalPage = (): JSX.Element => {
           </div>
 
           {/* Dark overlay */}
-          <div className="absolute inset-0 bg-wosnik-dark/70 z-0" style={{ top: 0 }} />
-
-          {/* Hero Content */}
-          <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-16 md:py-24 text-center">
+          {/* Hero Content with dark overlay */}
+          <div className="relative w-full">
+            <div className="absolute inset-0 bg-black/65" />
+            <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-16 md:py-24 text-center">
             <h1 className="font-heading text-white text-4xl md:text-5xl lg:text-6xl font-normal leading-tight mb-4">
               Protect Your Children, Your Finances, and Your Future in a High-Conflict Divorce
             </h1>
@@ -169,6 +169,7 @@ export const DiamondLegalPage = (): JSX.Element => {
             >
               Get Your Strategy Consultation
             </button>
+            </div>
           </div>
         </section>
 
