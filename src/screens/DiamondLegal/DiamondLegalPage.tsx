@@ -86,7 +86,7 @@ export const DiamondLegalPage = (): JSX.Element => {
         "Experienced legal counsel for challenging divorce scenarios, custody disputes, financial misconduct investigations, and special-needs parenting plans — protecting your children, assets, and long-term stability.",
     },
     {
-      title: "Free Strategy Consultation",
+      title: "Strategy Consultation",
       description:
         "Speak directly with an accomplished family law attorney today to review your case, explore options, and develop a clear plan to safeguard your children, finances, and future — at no cost.",
     },
