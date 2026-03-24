@@ -192,7 +192,7 @@ export const DiamondLegalPage = (): JSX.Element => {
               <img
                 src="/divorce-lawyer.webp"
                 alt="Divorce attorney helping client in McHenry County"
-                className="rounded-lg shadow-md object-cover w-full max-w-2xl max-h-72"
+                className="rounded-lg shadow-md object-cover w-full max-w-2xl max-h-[500px]"
               />
             </div>
 
