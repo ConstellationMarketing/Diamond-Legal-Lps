@@ -272,7 +272,13 @@ export const DiamondLegalPage = (): JSX.Element => {
             </h2>
 
             <div className="flex flex-col items-center">
-              <div className="flex flex-col space-y-6 text-center max-w-4xl mb-10">
+              <div className="flex flex-col lg:flex-row gap-10 items-center mb-10 w-full">
+                <img
+                  src="/diamond-legal-team.webp"
+                  alt="Diamond Legal, P.C. Team"
+                  className="w-full lg:w-2/5 rounded-lg object-cover shadow-lg flex-shrink-0"
+                />
+                <div className="flex flex-col space-y-6">
                 <p className="font-body text-wosnik-dark text-base leading-relaxed">
                   At Diamond Legal, P.C., you're represented by a seasoned team of family law attorneys with over 40 years of combined experience serving McHenry, Lake, and Kane Counties. Founded by Samuel J. Diamond, who began his career as an Assistant State's Attorney after earning his Juris Doctor from Chicago‑Kent College of Law, the firm brings decades of courtroom insight, local knowledge, and strong community relationships to every case.
                 </p>
@@ -282,6 +288,7 @@ export const DiamondLegalPage = (): JSX.Element => {
                 <p className="font-body text-wosnik-dark text-base leading-relaxed">
                   From complex custody battles to intricate asset divisions, Diamond Legal combines experience, strategic thinking, and compassionate advocacy to guide you through every stage of your family law matter, providing personalized attention, clear explanations, and a dedicated legal partner committed to achieving the best possible outcome for you and your family.
                 </p>
+                </div>
               </div>
 
               <div className="mb-12">
