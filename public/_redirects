@@ -1,2 +1,6 @@
-/lp-family-law.html        /lp-family-law/    301
-/lp-family-law-thank-you.html  /lp-family-law-thank-you/  301
+/lp-family-law.html        /lp-Divorce-lawyer/    301
+/lp-family-law-thank-you.html  /lp-Divorce-lawyer-thank-you/  301
+/lp-family-law     /lp-Divorce-lawyer/    301
+/lp-family-law/*   /lp-Divorce-lawyer/:splat    301
+/lp-family-law-thank-you     /lp-Divorce-lawyer-thank-you/    301
+/lp-family-law-thank-you/*   /lp-Divorce-lawyer-thank-you/:splat    301
