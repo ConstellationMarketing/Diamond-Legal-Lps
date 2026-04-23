@@ -251,7 +251,7 @@ export const DiamondLegalPage = (): JSX.Element => {
                 Why Choose Diamond Legal, P.C.
               </h2>
               <p className="font-body text-gray-600 text-lg">
-                Proven family law advocacy built on local competence and strategic divorce guidance.
+                Over 40 Years of Combined Experience Protecting Families, Children, and Financial Futures
                 <br />
                 <br />
               </p>
