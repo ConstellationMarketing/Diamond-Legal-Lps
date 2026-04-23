@@ -155,7 +155,7 @@ export const DiamondLegalPage = (): JSX.Element => {
             <div className="absolute inset-0 bg-black/80" />
             <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-16 md:py-24 text-center">
             <h1 className="font-heading text-white text-4xl md:text-5xl lg:text-6xl font-normal leading-tight mb-4">
-              Protect Your Children, Your Finances, and Your Future in a High-Conflict Divorce
+              Protect Your Children, Your Finances, and Your Future in a Strategic Divorce
             </h1>
             <h2 className="font-body text-wosnik-accent text-xl md:text-2xl font-semibold mb-6">
               McHenry, Lake &amp; Kane County Divorce Attorneys — Diamond Legal
