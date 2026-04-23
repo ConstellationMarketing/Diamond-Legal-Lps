@@ -124,7 +124,12 @@ export const DiamondLegalPage = (): JSX.Element => {
     <div className="w-full bg-wosnik-light">
       <div className="flex flex-col">
         {/* ============ HERO SECTION ============ */}
-        <section className="relative w-full min-h-[500px] bg-wosnik-dark" style={{ backgroundImage: "url('/hero-bg.webp')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+        <section
+          className="relative w-full min-h-[500px] bg-wosnik-dark"
+          role="img"
+          aria-label="Professional family law attorney advising a parent during Strategic divorce consultation"
+          style={{ backgroundImage: "url('/hero-bg.webp')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}
+        >
           {/* Navigation Bar */}
           <div className="relative w-full bg-white border-b border-gray-200">
             <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
